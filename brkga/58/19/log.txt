@@ -1,0 +1,32 @@
+============================== LOG ==============================
+Instance: 58
+Run: 19
+Metaheuristic: BRKGA
+Execution started at: Sat Jan 31 12:11:51 PM UTC 2026
+5
+
+Number of subproblems: 100
+Number of neighbors: 10
+Number of fixed turbines: 45
+Number of mobile turbines: 97
+Wind: 15.000000000000
+Angle: 0.000000000000
+
+Run time:
+
+========== BRKGA-NSGA2 HYBRID ==========
+Population size: 100
+Elite size (pe): 20
+Mutant size (pm): 15
+Offspring size (pc): 65
+Rho_e (bias): 0.700000000000
+========================================
+
+[INFO] Todas as soluções no Pareto são válidas!
+./smaller_scripts/brkga.sh: line 30: 357879 Segmentation fault      (core dumped) ./exe/brkga "$instance" "$path" "$angle" "$wind"
+
+real	117m58.464s
+user	43m36.760s
+sys	0m1.450s
+Execution ended at: Sat Jan 31 02:09:49 PM UTC 2026
+=================================================================
